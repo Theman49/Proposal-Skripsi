@@ -1,7 +1,8 @@
 #!/bin/sh
 date=$(date | awk '{print $1,$2,$3}')
 commit="update $date"
-token=$(cat ~/Documents/token_github.txt)
+expiredToken=$(cat ~/Documents/token_github.txt | tr "-" " " | awk '{print $2,$3,$4}')
+token=$(cat ~/Documents/token_github.txt | tr "-" " " | awk '{print $1}')
 dir=$(pwd | sed 's#/# #g')
 col=$(echo $dir | wc | awk '{print $2}')
 repo=$(echo $dir | awk '{print $NF}')
@@ -9,6 +10,7 @@ repo=$(echo $dir | awk '{print $NF}')
 linkGithub="https://theman49:$token@github.com/theman49/$repo.git"
 
 git status
+echo "expired token : $expiredToken"
 echo -n "push ? (y/n) : "
 read confirm
 
