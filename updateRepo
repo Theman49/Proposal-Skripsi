@@ -1,5 +1,6 @@
 #!/bin/sh
 date=$(date | awk '{print $1,$2,$3}')
+date2=$(date | awk '{print $2,$3,$NF}') #to compare expired token
 commit="update $date"
 expiredToken=$(cat ~/Documents/token_github.txt | tr "-" " " | awk '{print $2,$3,$4}')
 token=$(cat ~/Documents/token_github.txt | tr "-" " " | awk '{print $1}')
@@ -11,14 +12,20 @@ linkGithub="https://theman49:$token@github.com/theman49/$repo.git"
 
 git status
 echo "expired token : $expiredToken"
-echo -n "push ? (y/n) : "
-read confirm
 
-if [ $confirm = 'y' -o $confirm = 'Y' ]
+if [[ $date2 != $expiredToken ]]
 then
-	git add .
-	git commit -m "$commit"
-	git push $(echo $linkGithub) 
+	echo -n "push ? (y/n) : "
+	read confirm
+
+	if [ $confirm = 'y' -o $confirm = 'Y' ]
+	then
+		git add .
+		git commit -m "$commit"
+		git push $(echo $linkGithub) 
+	fi
+else
+	notify-send "Token Expired"
 fi
 
 
