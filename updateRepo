@@ -25,7 +25,7 @@ then
 		git push $(echo $linkGithub) 
 	fi
 else
-	#notify-send "Token Expired"
+	notify-send "Token Expired"
 	echo "Token Expired"
 fi
 
