@@ -1,0 +1,15 @@
+1_4611419006_I Gusti Ayu Suciningsih_Teknik Informatika	SIG, Mobapp_Sistem Informasi Geografis Pemetaan Penyalahgunaan Narkotika Menggunakan Heatmap pada Aplikasi BNN Kota Kediri Berbasis Android_Subhan, S.Pd., M.Pd., M.Kom
+
+2_4611419046_Deny Lukman Syarif_Teknik Informatika_Keamanan jaringan_Analisis Keamanan Jaringan Wireless Home Router terhadap Serangan Paket Sniffing untuk Meningkatkan Keamanan_Subhan, S.Pd., M.Pd., M.Kom
+
+3_4611419068_Novita Ayu Indirawati_Teknik Informatika_Data Mining_Penerapan Metode K-Means Clustering untuk Segmentasi Konsumen Perusahaan Mobil_Subhan, S.Pd., M.Pd., M.Kom
+
+4_4611419072_Muhammad Galih Rakasiwi_Teknik Informatika_3D Virtual Store_Perancangan Dan Pembuatan Aplikasi Virtual Store 3D Dengan Artificial Intelligence Menggunakan Algoritma PathFinding_Subhan, S.Pd., M.Pd., M.Kom
+
+5_4611419035_Wanda Alifah_Teknik Informatika_Pengembangan Aplikasi Berbasis Web_RANCANG BANGUN APLIKASI SISTEM PENDATAAN INVENTARIS BARANG MENGGUNAKAN RFID BERBASIS WEB SERVICE_Subhan, S.Pd., M.Pd., M.Kom
+
+6_4611419034_Naufal Afif Sadewa_Teknik Informatika_Machine Learning_IMPLEMENTASI METODE LONG SHORT TERM MEMORY UNTUK PREDIKSI KURS RUPIAH TERHADAP YEN_Subhan, S.Pd., M.Pd., M.Kom
+
+7_4611419017_Kireina Yuki Pratiwi_Teknik Informatika_Kriptografi atau Kecerdasan Buatan_Implementasi pengamanan Data BPJS menggunakan Algoritma Advanced Encryption Standard (AES)_Subhan, S.Pd., M.Pd., M.Kom
+
+8_4611419010_Tiara Lailatul Nikmah_Teknik Informatika_Data mining_Optimasi Algoritma Random Forest Menggunakan Algoritma XGBoost dan Chi-Square untuk Meningkatkan Akurasi Model Analisis Online Shopper Intention_Subhan, S.Pd., M.Pd., M.Kom
