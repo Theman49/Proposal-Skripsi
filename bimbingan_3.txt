@@ -1,0 +1,9 @@
+﻿Bidang wireless
+Ancaman : 
+
+alternatif contoh:
+otomatisasi wifi dengan IoT untuk waktu hidup dan mati dengan sensor atau yang lain
+
+cara mengecek apakah pengunjung di server asli atau fake
+
+wireless handover dan sensor untuk penerapan otomatisasi wifi + handover
